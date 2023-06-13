@@ -60,8 +60,8 @@ const App = () => {
 
 
   return (
-    <div className='bg-black text-white h-screen flex flex-col items-center '>
-      <p className='text-4xl font-bold pt-4'>ToDO list</p>
+    <div className='w-[100vw] bg-black text-white h-screen flex flex-col items-center  '>
+      <p className='inline text-3xl font-bold pt-4 '>ToDO list</p>
       <InputForm handleAdd={handleAdd} input={input} setInput={setInput} />
       <p className='text-lg'> there are {datalist.length} tasks </p>
       <div className="w-full h-auto mt-4  flex flex-col flex-wrap justify-center gap-2 no-underline ">
